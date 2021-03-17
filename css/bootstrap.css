@@ -10,3 +10,19 @@
     position: absolute;
     top: 30vh; 
 }
+
+#marketing:before, #contact:before {
+    display: block;
+    content: "";
+    height: 100px;
+    margin: -100px 0 0;
+}
+
+#content li a:hover {
+    background-color: lightseagreen;
+    color: white;
+}
+
+.card {
+    width: 45%;
+}
