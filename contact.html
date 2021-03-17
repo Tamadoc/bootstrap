@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Simple website</title>
+</head>
+<body>
+    <header>
+        <img src="img/lotus-flower-1805784_640.png" alt="Lotus flower logo" height="100">
+        <h1>Contact us</h1>
+
+        <nav>
+            <a href="index.html">About</a>
+            <a href="#">Products</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+    </header>
+
+    <main>        
+        <form action="#">
+            <h2>Let us know what you think</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus magni sapiente, explicabo ad iste autem optio earum quisquam. Nisi, vitae.</p>
+            
+            <div class="form-group">
+                <label for="name" class="font-weight-bold">Name</label>
+                <input type="text" name="name" id="name" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="email" class="font-weight-bold">Email</label>
+                <input type="email" name="email" id="email" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="category" class="font-weight-bold">Topic</label>
+                <select name="category" id="category" class="form-control">
+                    <option value="products">Product Enquiry</option>
+                    <option value="help">Troubleshooting</option>
+                    <option value="suggestion">Feature Request</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="message" class="font-weight-bold">Message</label>
+                <textarea name="message" id="message" cols="100" rows="10"  class="form-control"></textarea>
+            </div>
+            <button type="reset" class="btn btn-secondary">Reset</button>
+            <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+    </main>
+
+    <footer>
+        <address>&copy; Teri Sandstedt</address>
+    </footer>
+</body>
+</html>
